@@ -1,0 +1,39 @@
+.body{
+  font-family: 'Montserrat', sans-serif";
+}
+
+.header{
+  background: #BBBBBB;
+  padding: 20px;
+}
+
+.caja{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-head{
+  position: absolute;
+  top:110px;
+  right: 0;
+}
+
+.nav-head li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.nav-head a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav-head a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
