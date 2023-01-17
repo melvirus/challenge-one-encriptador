@@ -3,7 +3,7 @@
 }
 
 .header{
-  background: #BBBBBB;
+  background: lightgreen;
   padding: 20px;
 }
 
@@ -38,6 +38,8 @@
     text-decoration: underline;
 }
 
+
+
 .principal{
   padding: 3em 0;
   background: #FEFEFE;
@@ -51,12 +53,20 @@
 }
 
 .texto{
+  text-align: center;
   padding: 3em 0;
   background: #FEFEFE;
   width: 940px;
   margin: 0 auto;
 }
 
+.text{
+  display: block;
+}
+
+.button{
+  display: block;
+}
 
 
 
@@ -65,6 +75,7 @@
 footer{
   text-align: center;
   padding:40px;
+  background: lightgreen;
 }
 
 .copyright{
