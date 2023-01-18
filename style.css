@@ -50,27 +50,30 @@
 .principal h1{
   text-align: center;
   font-size: 25px;
+  padding: 20px;
 }
 
-.texto{
+.container{
+  font-size: 18px;
   text-align: center;
-  padding: 3em 0;
-  background: #FEFEFE;
-  width: 940px;
-  margin: 0 auto;
 }
 
 .text{
-  display: block;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+#mensaje{
+  align-items: center;
+  padding: 10px;
 }
 
 .button{
-  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
 }
-
-
-
-
 
 footer{
   text-align: center;
@@ -80,6 +83,6 @@ footer{
 
 .copyright{
   color: black;
-  font-size: 15px;
+  font-size: 20px;
   margin:20px;
 }

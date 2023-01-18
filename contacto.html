@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width">
+        <title>Codificador y Descodificar</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    
+    </head>
+    
+    <body>
+
+        <main>
+            
+            <header>
+                <div class="caja">
+                    <h1><img class="logo" src="imagenes/logo.jpg" alt="logo-teclado"></h1>
+                    <nav class="nav-head">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="acercade.html">Acerca de</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            <main>
+                <form>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+        
+                    <label for="correoelectronico">Correo Electrónico</label>
+                    <input type="email" id="correoelectronico" class="input-padron" required
+                    placeholder="email@dominio.com">
+        
+                    <label for="telefono">Teléfono</label>                        <input type="tel" id="telefono" class="input-padron" required                        placeholder="(XX) XXXX XXXX">
+        
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+        
+                    <fieldset>
+        
+                        <legend>¿Como le gustaria que le contactemos?</legend>
+        
+                        <label for="radio-email"> <input type="radio" name="contacto" 
+                            value="email" id="radio-email">Correo Electrónico</label>
+                            
+                        <label for="radio-telefono"><input type="radio" name="contacto" 
+                            value="telefono" id="radio-telefono">Telefono</label>
+                            
+    
+                        <label for="radio-whatsapp"><input type="radio" name="contacto"                                 value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                            
+                        
+                    </fieldset>
+        
+                    <fieldset>
+        
+                        <legend>¿En cual horario prefiere ser atendido?</legend>
+                            <select>
+                                <option>Mañana</option>
+                                <option>Tarde</option>
+                                <option>Noche</option>
+                            </select>
+                        </fieldset>
+                        
+                        <label class="checkbox"><input type="checkbox" checked> Le gustaria recibir novedades de la Barberia Alura</label>
+        
+                        <input type="submit" value="Enviar formulario" class="enviar">
+        
+                </form>
+        
+                    <table>
+        
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horario</th>
+                            </tr>
+                        </thead>
+        
+                        <tbody>
+                            <tr>
+                                <td>Lunes</td>
+                                <td>08 ~ 20 H</td>
+                            </tr>
+                            <tr>
+                                <td>Miercoles</td>
+                                <td>08 ~ 20 H</td>
+                            </tr>
+                            <tr>
+                                <td>Viernes</td>
+                                <td>08 ~ 20 H</td>
+                            </tr>
+                        </tbody>
+                        
+                        
+                    </table>
+            
+            </main>
+
+        <footer>
+            <img src="imagenes/logo-footer.jpg">
+            <p class="copyright">&copy Copyright Melvin Castillo</p>
+        </footer>
+        
+    </body>
+
+</html>
