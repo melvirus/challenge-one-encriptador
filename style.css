@@ -80,6 +80,11 @@
   cursor: pointer;
 }
 
+button:hover{
+  background: #19d829;
+  transform: scale(1.2);
+}
+
 .footer{
   text-align: center;
   padding: 40px;
