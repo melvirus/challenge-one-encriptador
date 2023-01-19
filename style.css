@@ -2,13 +2,14 @@
   font-family: 'Montserrat', sans-serif";
 }
 
-.header{
-  background: lightgreen;
-  padding: 20px;
+.header {
+    background-color: #98FB98;
+    padding: 20px;
+    width: 100%;
 }
 
 .caja{
-  width: 940px;
+  width: 90%;
   position: relative;
   margin: 0 auto;
   padding: 20px;
@@ -23,6 +24,7 @@
 .nav-head li{
   display: inline;
   margin: 0 0 0 15px;
+  align-items: center;
 }
 
 .nav-head a{
@@ -34,16 +36,14 @@
 }
 
 .nav-head a:hover{
-    color: #c78c19;
+    color: #19d829;
     text-decoration: underline;
 }
-
-
 
 .principal{
   padding: 3em 0;
   background: #FEFEFE;
-  width: 940px;
+  width: 90%;
   margin: 0 auto; 
 }
 
@@ -65,24 +65,184 @@
 }
 
 #mensaje{
+  display: flex;
+  justify-content: center;
   align-items: center;
   padding: 10px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .button{
   margin: 0 auto;
   padding: 10px;
   display: flex;
+  cursor: pointer;
 }
 
-footer{
+.footer{
   text-align: center;
-  padding:40px;
-  background: lightgreen;
+  padding: 40px;
+  background: #98FB98;
+  width: auto;
 }
 
 .copyright{
   color: black;
   font-size: 20px;
+  font-weight: bold;
   margin:20px;
 }
+
+
+/* Estilos acerca de */
+
+.faq{
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.faq p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Estilos pagina Contacto */
+
+form{
+  width: 90%;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background: #19d829;
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width:480px) {
+
+  .body{
+    font-size: 14px;
+  }
+
+  .header{
+    font-size: 28px;
+  }
+
+  .nav-head{
+      position: static;
+      font-size: 16px;
+  }
+
+  .principal h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .faq{
+    font-size: 14px;
+  }
+
+  form label, form legend {
+    font-size: 16px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  
+  .header {
+    padding: 30px;
+  }
+  
+  .caja {
+    width: 80%;
+  }
+  
+  .nav-head {
+    position: static;
+    text-align: center;
+  }
+  
+  .nav-head li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .principal {
+    padding: 4em 0;
+  }
+  
+  .principal h1 {
+    font-size: 28px;
+  }
+  
+  .container, .text, #mensaje {
+    font-size: 20px;
+  }
+  
+  .button {
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 40px;
+  }
+  
+  .copyright {
+    font-size: 24px;
+  }
+  
+  .faq {
+    width: 80%;
+  }
+  
+  form {
+    width: 80%;
+  }
+  
+  .input-padron {
+    width: 100%;
+  }
+  
+  .enviar {
+    width: 60%;
+  }
+}
+

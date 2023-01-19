@@ -1,3 +1,7 @@
+window.onload = function () {
+
+
+
 function codificar(cadena) {
   return btoa(cadena);
 }
@@ -19,3 +23,5 @@ descodificarBtn.addEventListener("click", function(event) {
 event.preventDefault();
 mensaje.value = descodificar(mensaje.value);
 });
+
+}
