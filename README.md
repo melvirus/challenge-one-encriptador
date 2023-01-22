@@ -4,7 +4,7 @@ Pagina basica html, css, JS, para un codificador y descodificador               
 
 Proyecto Encriptador de texto utilizando JavaScript
 
-Por favor comparte tus opiniones para poder mejorar mas nuestro el codigo
+Por favor comparte tus opiniones para poder mejorar mas el codigo
 
 Proyecto Encriptador de Texto, Challenge + Oracle One JAVA + Alura Latam
 
